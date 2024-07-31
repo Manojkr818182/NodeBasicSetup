@@ -1,7 +1,7 @@
 require('dotenv').config();
 require('./config/conn');
 const { ERROR_MESSEGE } = require('./src/utils/constants');
-const exceptionLogger = require('./config/exceptionLogger');
+const exceptionLogger = require('./src/utils/exceptionLogger');
 const path = require('path');
 const express = require('express');
 const routes = require('./src/routes/user_routes');
